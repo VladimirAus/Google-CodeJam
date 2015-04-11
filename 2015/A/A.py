@@ -1,5 +1,5 @@
 # Input file
-fname = "A-small-attempt0"
+fname = "A-large"
 inputfile = fname + ".in"
 outputfilename = fname + ".out"
 lines = [line.strip() for line in open(inputfile)]
