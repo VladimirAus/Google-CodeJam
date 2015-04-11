@@ -1,4 +1,6 @@
 # Input file
+# fname = "A-trial"
+# fname = "A-small-attempt0"
 fname = "A-large"
 inputfile = fname + ".in"
 outputfilename = fname + ".out"
