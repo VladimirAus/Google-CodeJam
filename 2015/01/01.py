@@ -1,7 +1,7 @@
 # Input file
-fname = "trial"
-inputfile = fname + ".input"
-outputfilename = fname + ".output"
+fname = "A-small-attempt0"
+inputfile = fname + ".in"
+outputfilename = fname + ".out"
 lines = [line.strip() for line in open(inputfile)]
 # print lines
 
