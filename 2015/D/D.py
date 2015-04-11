@@ -1,7 +1,9 @@
 # Input file
 # fname = "D-trial"
 # fname = "D-small-attempt0"
-fname = "D-small-attempt1"
+# fname = "D-small-attempt1"
+# fname = "D-small-attempt2"
+fname = "D-small-attempt3"
 # fname = "D-large"
 inputfile = fname + ".in"
 outputfilename = fname + ".out"
@@ -41,6 +43,9 @@ for nTest in xrange(0, steps):
 
 				a = a + 1
 				b = b - 1
+
+	else:
+		print "F: devider is not 0"
 
 	if (foundSolution):
 		result.append("GABRIEL")
